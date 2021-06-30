@@ -1,0 +1,51 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+   
+    color: rgb(248, 248, 244);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.container{
+    text-align: center;
+    flex: 0 0 80%;
+}
+
+#quoteBtn{
+    border: none;
+    background-color: black;
+     color: #faf7fd;
+    font-size: 1.3rem;
+    padding: 0.25rem,0.5rem;
+    border: radius 2px;
+    cursor: pointer;
+}
+#heading
+{
+    font-family: cursive;
+    color: lightseagreen;
+    letter-spacing: 8px;
+    font-size: 3rem;
+}
+#quoteBtn:hover
+{
+    color: rgb(96, 53, 252);
+
+}
+blockquote
+{
+    background: #f7b830;
+    border-left: 10px solid #ff7c02fd;
+    margin: 1.5rem;
+    padding:0.5rem;
+}
+#quoteAuthor
+{
+    color:rgb(255, 55, 55) 
+    
+    
+}
